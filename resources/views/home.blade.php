@@ -5,4 +5,6 @@
 
     <h1>This is my content</h1>
 
+    @dd($comicsSeries)
+
 @endsection
