@@ -3,3 +3,57 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-container .card {
+  flex-basis: calc((100% / 12) * 2);
+  max-width: calc((100% / 12) * 2);
+}
+.card-container .card img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.top-header {
+  height: 20px;
+  background-color: #0282f9;
+  text-align: right;
+}
+.top-header span {
+  color: white;
+  padding-left: 50px;
+  font-size: 12px;
+}
+
+.bottom-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-header .container .logo, .bottom-header .container .search-bar {
+  width: 15%;
+}
+.bottom-header .container .nav-bar li {
+  display: inline-block;
+}
+.bottom-header .container .nav-bar li a {
+  text-decoration: none;
+}

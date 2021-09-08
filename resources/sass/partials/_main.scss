@@ -1,0 +1,16 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card{
+        flex-basis: calc((100% / 12) * 2);
+        max-width: calc((100% / 12) * 2);
+
+        img{
+            max-width: 150px;
+            max-height: 150px;
+        }
+    }
+}
