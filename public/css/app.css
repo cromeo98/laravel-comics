@@ -17,6 +17,15 @@ li {
   list-style-type: none;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+main .jumbo {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  height: 350px;
+}
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -26,6 +35,8 @@ li {
 .card-container .card {
   flex-basis: calc((100% / 12) * 2);
   max-width: calc((100% / 12) * 2);
+  padding: 25px;
+  color: white;
 }
 .card-container .card img {
   max-width: 150px;

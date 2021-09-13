@@ -3,10 +3,7 @@
 
 @section('content')
 
-    <h1>This is my content</h1>
-
     <div class="jumbo">
-        THIS IS MY JUMBO
     </div>
 
 
