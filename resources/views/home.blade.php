@@ -12,10 +12,11 @@
 
         <div class="card-container">
 
-            @foreach($comicsSeries as $comicsSerie)
+            @foreach($comicsSeries as $key => $comicsSerie)
                 <div class="card">
                     <img src="{{$comicsSerie['thumb']}}" alt="{{$comicsSerie['title']}}">
                     <h6>{{$comicsSerie['series']}}</h6>
+                    <h6>{{$key}}</h6>
                 </div>
             @endforeach
 
